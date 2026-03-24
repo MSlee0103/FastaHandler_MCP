@@ -15,7 +15,7 @@ The FastaHandler MCP server wraps all 26 CLI modules into **6 grouped tool funct
 | `assembly_stats` | `all_fa_stats`, `each_fa_stats`, `asm_stats_unlimit` |
 | `concat_and_edit` | `concatenate_fa`, `rename_id`, `prefix_pattern_replace`, `prefix_rename`, `prefix_select_rename` |
 | `extract_and_translate` | `chr_pansn_extract`, `extract_pattern`, `id_extract_multi_location`, `translate_dna` |
-| `remove_and_subset` | 'subset_fa', `remove_duplicate`, `find_anchor_trim`, `overlap_split` |
+| `remove_and_subset` | `subset_fa`, `remove_duplicate`, `find_anchor_trim`, `overlap_split` |
 | `filter_and_sort` | `find_count_duplicate`, `id_extract`, `id_extract_location`, `size_pattern_search`, `find_merge_fa` |
 | `reformat` | `multi2single`, `gfa2fa`, `reverse_complement`, `pangenome_id_rename`, `multi2each` |
 
