@@ -5,7 +5,6 @@ A [Model Context Protocol (MCP)](https://www.anthropic.com/news/model-context-pr
 > **FastaHandler** is a lightweight, Python-based toolkit for FASTA file manipulation in genomic and pangenome research.  
 > Main repository: [https://github.com/OZTaekOppa/FASTAhandler](https://github.com/OZTaekOppa/FASTAhandler)
 
----
 
 ## Overview
 
@@ -50,7 +49,7 @@ git clone https://github.com/OZTaekOppa/FASTAhandler.git
 ### 2. Place the MCP server
 The `server.py` must be placed in the **same directory** as FastaHandler's `scripts` folder:
 ```
-FASTAhandler/
+FastHandler-main/
 ├── scripts/
 ├── fastahandler.py
 ├── server.py        ← place here
@@ -88,10 +87,7 @@ Edit your `claude_desktop_config.json`
       "command": "python",
       "args": [
         "/path/to/fastahandler-mcp/server.py"
-      ],
-      "env": {
-        "FASTAHANDLER_PATH": "/path/to/FASTAhandler/fastahandler.py"
-      }
+      ]
     }
   }
 }
