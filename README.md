@@ -32,9 +32,11 @@ Each tool accepts a `mode` parameter (module name), input/output paths, and opti
 
 ### Python dependencies
 
-```bash
-pip install fastmcp biopython numpy pandas parasail
-```
+# For the MCP server
+pip install fastmcp
+
+# For FastaHandler
+pip install biopython numpy pandas parasail
 
 ---
 
@@ -55,15 +57,6 @@ FastHandler-main/
 ├── server.py        ← place here
 └── ...
 ```
-
-### 3. Clone this MCP server
-
-```bash
-git clone https://github.com/<your-username>/fastahandler-mcp.git
-cd fastahandler-mcp
-pip install fastmcp
-```
-
 ---
 
 ## Configuration
