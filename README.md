@@ -33,11 +33,11 @@ Each tool accepts a `mode` parameter (module name), input/output paths, and opti
 ### Python dependencies
 
 # For the MCP server
-pip install fastmcp
-
+```pip install fastmcp
+```
 # For FastaHandler
-pip install biopython numpy pandas parasail
-
+```pip install biopython numpy pandas parasail
+```
 ---
 
 ## Installation
