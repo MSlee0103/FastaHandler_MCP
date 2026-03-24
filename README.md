@@ -1,4 +1,4 @@
-# FastaHandler MCP Server
+# An MCP Server for FastaHandler
 
 A [Model Context Protocol (MCP)](https://www.anthropic.com/news/model-context-protocol) server that exposes all 26 **FastaHandler** modules as natural language–accessible tools for LLM clients such as Claude Desktop and Cursor.
 
