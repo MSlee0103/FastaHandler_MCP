@@ -1,0 +1,5 @@
+CL1    seqid=h1ctg001    length=10500
+CL2    seqid=h2ctg007    length=8900
+CL3    seqid=h1ctg123    length=15400
+CL4    seqid=h2ctg045    length=6400
+CL4    seqid=h2ctg055    length=7700
