@@ -1,0 +1,5 @@
+Seq%_1	Hsap_ch1
+Seq%_3	Hsap_ch2
+Seq%_5	Hsap_ch3
+Seq%_7  Hsap_ch4
+Seq%_9  Hsap_ch5
